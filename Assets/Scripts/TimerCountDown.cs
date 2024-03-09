@@ -19,7 +19,9 @@ public class Countdown : MonoBehaviour
         else
         {
             countdownText.text = "Başla!";// Süre bittiğinde ekranda ne gösterileceği
-            
+            SpriteLooper.gameStarted = true;
+
+
             if (timeLeft < -2)
             {
                 countdownText.text = " ";
