@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: d5446fba424b9224c8ccdbcb9d194821
+  - enabled: 1
+    path: Assets/Scenes/PlotExplaining.unity
+    guid: ce971adad93b02745a0326a468fcb8d8
+  - enabled: 1
+    path: Assets/Scenes/GamblingMenu.unity
+    guid: 1e26899b3a38a4449b71d0dfeafd2f46
+  - enabled: 1
     path: Assets/Scenes/TelevizyonScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/HipodromScene.unity
-    guid: acac8293109ccfa41b62990297e76614
   m_configObjects: {}
