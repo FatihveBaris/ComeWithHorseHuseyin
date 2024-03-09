@@ -98,5 +98,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 5
-  spawnPoint: {x: 26.8, y: 0, z: 1.95}
-  gecisPoint: {x: -27, y: 0, z: 1.95}
+  spawnPoint: {x: 26.8, y: 1.461276, z: 1.9}
+  gecisPoint: {x: -27, y: 1.461276, z: 1.9}
