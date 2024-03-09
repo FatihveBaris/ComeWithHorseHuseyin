@@ -146,8 +146,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   isRunning: 0
-  runningSprite: {fileID: 0}
-  walkingSprite: {fileID: 0}
 --- !u!95 &8712863504737908533
 Animator:
   serializedVersion: 5
@@ -158,7 +156,7 @@ Animator:
   m_GameObject: {fileID: 5809883678539226118}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5b3066f829065724e92418420a5d2aad, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
