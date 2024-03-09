@@ -17,18 +17,25 @@ public class Main_menu : MonoBehaviour
 
     public void SettingsButton()
     {
-        MainMenuCanvas.GetComponent<Canvas>().enabled = false;
-        CreditsCanvas.GetComponent<Canvas>().enabled = false;
-        SettingsCanvas.GetComponent<Canvas>().enabled = true;
+        MainMenuCanvas.gameObject.SetActive(false);
+        CreditsCanvas.gameObject.SetActive(false);
+        SettingsCanvas.gameObject.SetActive(true);
     }
 
     public void CreditsButton()
     {
-        MainMenuCanvas.GetComponent<Canvas>().enabled = false;
-        SettingsCanvas.GetComponent<Canvas>().enabled = false;
-        CreditsCanvas.GetComponent <Canvas>().enabled = true;
+        MainMenuCanvas.gameObject.SetActive(false);
+        SettingsCanvas.gameObject.SetActive(false);
+        CreditsCanvas.gameObject.SetActive(true);
     }
 
+    public void ReturnButton() 
+    {
+        SettingsCanvas.gameObject.SetActive(false);
+        CreditsCanvas.gameObject.SetActive(false) ;
+        MainMenuCanvas.gameObject.SetActive(true);
+
+    }
     public void QuitButton()
     {
         Application.Quit();
