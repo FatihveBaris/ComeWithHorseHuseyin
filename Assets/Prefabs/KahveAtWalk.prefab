@@ -165,9 +165,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e26de2ba16922745a4b5a3eafebfbcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _horseName: 
-  _speed: 0
-  _color: 
-  _age: 0
-  _jockeyName: 
+  speed: 3
   isRunning: 0
