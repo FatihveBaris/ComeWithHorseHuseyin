@@ -1,0 +1,1768 @@
+fileFormatVersion: 2
+guid: f72616894ff28e74dafd33d4eddd3dbb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: horse-white_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2447
+        width: 26
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cfa0ea2183199489239e9ac1df8301
+      internalID: -280863476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 2451
+        width: 26
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91027e09dc5a51439bdafe7606a4893
+      internalID: 1871390107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2459
+        width: 24
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f4602862e67d440ad5be00f9952a83
+      internalID: 2086880151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_3
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2454
+        width: 24
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b07547ea5af60a479f258e57bc92f79
+      internalID: -2047698641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2343
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42140bd21add17c40ac33a04388a1d80
+      internalID: -234276194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_5
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2334
+        width: 94
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049265fa0309c624c9a1e33d3689d324
+      internalID: 661618527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2334
+        width: 101
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3c0aeafa6e6d24190b26eb551e9974
+      internalID: 211709805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_7
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2337
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ef4ea6330680d40841df720476c451
+      internalID: -198105157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2203
+        width: 25
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1941089f5f12794f8afd6f962e14c26
+      internalID: 1934465864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_9
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 2204
+        width: 25
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b668f494975323646b3c9130ea2b0ab1
+      internalID: -1042326106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_10
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 2213
+        width: 25
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fced47297356a4a91afdbb6af6d97a
+      internalID: 291238888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_11
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 2211
+        width: 25
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaebf44e47cf01c42ac009fcc24dc329
+      internalID: 2025218452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2087
+        width: 89
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49b54d1c811e5f489c73bcbf1d903a0
+      internalID: -1564409609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_13
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2078
+        width: 94
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e910750606cf0546b144c4f4b021c81
+      internalID: 215495692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_14
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2078
+        width: 101
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e9e89ac2bd0aa4ebbf979de189484b
+      internalID: 1898678807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_15
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 2081
+        width: 91
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef74028f2431e634ca4192535e2026b8
+      internalID: -719701123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_16
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1938
+        width: 25
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2c03525adbff74aab3694f6ea91dc5
+      internalID: 1042643115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_17
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1939
+        width: 24
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc4dedeb7fe67c408898c280d77c3fe
+      internalID: 1852838341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_18
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1938
+        width: 27
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ecd1ebcde28ed4486a0fc6b6707574
+      internalID: 1498617865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_19
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1939
+        width: 24
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7664b1fe9c43818489e5b63275ddc37a
+      internalID: -947915907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1824
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e9b6c87e44f284d877101a412339ac
+      internalID: 2017702465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_21
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1826
+        width: 67
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d541070b9f4bd4e8689ab58a39b40b
+      internalID: -2096380220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_22
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1823
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af151c78a74a024fa9f159decae47de
+      internalID: -1128097181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_23
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1826
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cc1aa4d973f9447b111de266a8beea
+      internalID: 693534464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_24
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1693
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f4237e40aa2bb418155b74c69fc9a4
+      internalID: -273863626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_25
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1697
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcacb983768a5bf4ca427227903352b8
+      internalID: -502890415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_26
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1693
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669bc81aa39e8b546bfa8e4913ff6443
+      internalID: 130651451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_27
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1697
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c48011db8112b4c989ebf519e01ceb
+      internalID: 1905612969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1568
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67f6671a7417ee48b7291ee6f4836c9
+      internalID: 468453768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_29
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1569
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c4d4a244948184eb44856ad55f063c
+      internalID: -1700115121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_30
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1567
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7797121517fa5e143b33606fa5abbfa3
+      internalID: -1031250473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_31
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1569
+        width: 93
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57274175c18c2145b451f4c7ff7ab86
+      internalID: -231307764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_32
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1426
+        width: 27
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346d8ec6e1263b445aad6cc187f6e379
+      internalID: -786616584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_33
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1441
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a665be6c5bd31349b55dc362d4c95de
+      internalID: -708222258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_34
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1441
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fb4ac2c46a48e4e906d69e5ae2b35d
+      internalID: -188750707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_35
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1441
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25220e69ce601e43b0a1ba982fb1a6b
+      internalID: 1835061585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_36
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1298
+        width: 27
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f393330abcd2954ab78e066344dc107
+      internalID: -1392660302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_37
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1298
+        width: 27
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3562c70451bd8840b4a6285cc761135
+      internalID: 192287967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_38
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1298
+        width: 27
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b982c7d385f0534b9d1bb410c1b2c4a
+      internalID: 411158999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_39
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1298
+        width: 27
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0c75ffaf8e61f49870485dc81e3d6e
+      internalID: -254570365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_40
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1184
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5548aa7ffe3285489549d249b413e18
+      internalID: 1673474528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_41
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1184
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32406201abed7924ba4f7280ce1f1687
+      internalID: -1484775770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_42
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1184
+        width: 69
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63327b0f018eb6d4cb2bae1421cf9344
+      internalID: -1644447376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_43
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1184
+        width: 67
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b331a6bae77a1a4db19f9068e52159c
+      internalID: 676616914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_44
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1057
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384ab9b4cd6521f49a7bbd4b5beae5d1
+      internalID: 226017067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_45
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1057
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de55efab9b77c2f419a15c43b58a4ae5
+      internalID: 1211414454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_46
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1054
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbded25992544eb4abc9bb2cb605d067
+      internalID: 1749928489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_47
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1057
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e22bff7eb57ae74e9d03f7207d47896
+      internalID: -1948862586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_48
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 928
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe28b5e7d3e08843a4857b5fee9c06e
+      internalID: 769278039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_49
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 928
+        width: 69
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14984869be6c0fe4baae5b361bb45fa0
+      internalID: -1414976080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_50
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 928
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40120c248b0163047a68cc761d651805
+      internalID: 2003294510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_51
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 928
+        width: 69
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c5bda13a814094a9a93d1649594802
+      internalID: 1831305803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_52
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 802
+        width: 87
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750ca584061b7c3429f6c94f161ffe2d
+      internalID: -33872744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_53
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 808
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66028ee1601e0a4c8a0ad5936b090c3
+      internalID: 2042037911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_54
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 812
+        width: 90
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66bd6974c624ad4c9a25fd3281f3768
+      internalID: 1739766728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_55
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 802
+        width: 88
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb135c5ae0b0f64cbcddc7ad30fd11a
+      internalID: -857130728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_56
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 672
+        width: 94
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6c76dcd3c02724b865032d9680dcdf
+      internalID: -1043654854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_57
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 672
+        width: 96
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50d28e2d7d1d714e99a0738f259a8b3
+      internalID: -16130238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_58
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 672
+        width: 99
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac9c8477b6540f4e884c71c983046ce
+      internalID: -371110670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_59
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 672
+        width: 101
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9e6a201ad6eae4b807a6a6711c4e11
+      internalID: 1676162221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 544
+        width: 93
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f5ffde8ce8dd64b89d0dbeafa10d81
+      internalID: -816469560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_61
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 546
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cce1ac66207c54438e9d0ad1e8dfd9f
+      internalID: -746924080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_62
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 546
+        width: 88
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08350818e1b6b5f4299defa5c6b38233
+      internalID: 1453399272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_63
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 418
+        width: 88
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363471ccb09773f45bdd1b253eab0f81
+      internalID: -461178890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_64
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 424
+        width: 88
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fb71e8175baa249b0e1803a341a2b0
+      internalID: 1399402498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_65
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 428
+        width: 88
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f22bf9f9982c244b49c2453ec3d760
+      internalID: -1461905212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_66
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 418
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d86a0b9bd6b56479d85e17578cbd3b
+      internalID: 275113520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_67
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 287
+        width: 92
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cc5e60e8fdabb4abf51bb6f80dcaf8
+      internalID: -588789673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_68
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 287
+        width: 98
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f888954cfd5879e4b940e16bbc5b8e10
+      internalID: 749541312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_69
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 287
+        width: 99
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d596e79bad9b0419a5938507204265
+      internalID: -1005288392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_70
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 287
+        width: 101
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ecec9d6a378d74b95e51aa6ccf8e58
+      internalID: -94654825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_71
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 161
+        width: 95
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b9c365ed67fa548a78244cb2b87c4b
+      internalID: 1524583820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_72
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 162
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11d514bd800f564ba7caceb80a0cd57
+      internalID: -202221685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-white_73
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 162
+        width: 86
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea57175b3de37b4f987b74c5a38fee0
+      internalID: 960897037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      horse-white_0: -280863476
+      horse-white_1: 1871390107
+      horse-white_10: 291238888
+      horse-white_11: 2025218452
+      horse-white_12: -1564409609
+      horse-white_13: 215495692
+      horse-white_14: 1898678807
+      horse-white_15: -719701123
+      horse-white_16: 1042643115
+      horse-white_17: 1852838341
+      horse-white_18: 1498617865
+      horse-white_19: -947915907
+      horse-white_2: 2086880151
+      horse-white_20: 2017702465
+      horse-white_21: -2096380220
+      horse-white_22: -1128097181
+      horse-white_23: 693534464
+      horse-white_24: -273863626
+      horse-white_25: -502890415
+      horse-white_26: 130651451
+      horse-white_27: 1905612969
+      horse-white_28: 468453768
+      horse-white_29: -1700115121
+      horse-white_3: -2047698641
+      horse-white_30: -1031250473
+      horse-white_31: -231307764
+      horse-white_32: -786616584
+      horse-white_33: -708222258
+      horse-white_34: -188750707
+      horse-white_35: 1835061585
+      horse-white_36: -1392660302
+      horse-white_37: 192287967
+      horse-white_38: 411158999
+      horse-white_39: -254570365
+      horse-white_4: -234276194
+      horse-white_40: 1673474528
+      horse-white_41: -1484775770
+      horse-white_42: -1644447376
+      horse-white_43: 676616914
+      horse-white_44: 226017067
+      horse-white_45: 1211414454
+      horse-white_46: 1749928489
+      horse-white_47: -1948862586
+      horse-white_48: 769278039
+      horse-white_49: -1414976080
+      horse-white_5: 661618527
+      horse-white_50: 2003294510
+      horse-white_51: 1831305803
+      horse-white_52: -33872744
+      horse-white_53: 2042037911
+      horse-white_54: 1739766728
+      horse-white_55: -857130728
+      horse-white_56: -1043654854
+      horse-white_57: -16130238
+      horse-white_58: -371110670
+      horse-white_59: 1676162221
+      horse-white_6: 211709805
+      horse-white_60: -816469560
+      horse-white_61: -746924080
+      horse-white_62: 1453399272
+      horse-white_63: -461178890
+      horse-white_64: 1399402498
+      horse-white_65: -1461905212
+      horse-white_66: 275113520
+      horse-white_67: -588789673
+      horse-white_68: 749541312
+      horse-white_69: -1005288392
+      horse-white_7: -198105157
+      horse-white_70: -94654825
+      horse-white_71: 1524583820
+      horse-white_72: -202221685
+      horse-white_73: 960897037
+      horse-white_8: 1934465864
+      horse-white_9: -1042326106
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

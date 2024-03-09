@@ -1,0 +1,1768 @@
+fileFormatVersion: 2
+guid: 43c0450d81eee4249a2d5edeb8ba1ba0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: horse-brown_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2447
+        width: 26
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7c7b8808fa17a4f9b8963bcf93d6ad
+      internalID: 555813796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 2451
+        width: 26
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63b35851f3dafe4e8232f2cc171dfbd
+      internalID: -1220143175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2459
+        width: 24
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046c8c42d5b849340a24d1ec59971070
+      internalID: -1034940528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_3
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2454
+        width: 24
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5631268149e8c45ad8700403c91546
+      internalID: 1248299807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2343
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48eed067d1b1d040b5b0aff156778a0
+      internalID: -1320267975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_5
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2334
+        width: 94
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40eb5e20cbaf39440b8d1b9f59ccb829
+      internalID: -231957267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2334
+        width: 101
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd276fba4368eb4fa8d15e67312721a
+      internalID: 799357547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_7
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2337
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7618bfc8ba556d949b37c1e4635a343b
+      internalID: -823968285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2203
+        width: 25
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cd3d5eed309434ea0ddcf7d546127d
+      internalID: 735665320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_9
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 2204
+        width: 25
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273ddef5a3b747746ae6b176c19d737d
+      internalID: -2047522942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_10
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 2213
+        width: 25
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44e1f10402dbc746819763eb217907d
+      internalID: -1333917321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_11
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 2211
+        width: 25
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb85c7b331164e24c9548a97a5797f60
+      internalID: -1506196550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2087
+        width: 89
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65f6322d6488f949944f1fc9805030a
+      internalID: 2078564142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_13
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2078
+        width: 94
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6899bb6da1f255a429483c1e5ac49177
+      internalID: -1444273925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_14
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2078
+        width: 101
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bd766304a6e2740b954f01e884c1c2
+      internalID: -82831393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_15
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 2081
+        width: 91
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d5a63a9aa1f6a46bd443607ba3b546
+      internalID: -815877721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_16
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1938
+        width: 25
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e44b809db64b945b8b1ce09208416c
+      internalID: 1464886735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_17
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1939
+        width: 24
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e095d7cff92452041a42519e48f7f067
+      internalID: -242993120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_18
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1938
+        width: 27
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb49c3f1bffb124cb1ca1518049cb0a
+      internalID: 1683079086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_19
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1939
+        width: 24
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd85faf1efe2ee147bc8a0d122539fa5
+      internalID: 346020315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1824
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00d9d6a2c7914a4a9e4ae044a0bfe62
+      internalID: -305126474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_21
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1826
+        width: 67
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979047cc2001011408d299a4b622d7b5
+      internalID: 646390740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_22
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1823
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151ec586f56a0cc43a79619118dc5388
+      internalID: -890174684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_23
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1826
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe977741928ea84181f19e38bd8764e
+      internalID: -110636973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_24
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1693
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db435d9b6bb2b6f4b918e49488779034
+      internalID: -661217520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_25
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1697
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017cfb3e9caabd94490404b63d8f421a
+      internalID: -1636346802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_26
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1693
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c607cd74474ec84db9d653d67712d79
+      internalID: -1679669538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_27
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1697
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a15752d61a08ac49b31992b4e254d1a
+      internalID: 1203221925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1568
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0256a2489355ccc49a0a62420b758b2f
+      internalID: -647798196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_29
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1569
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db00dba4cda22d84c8ab1638a2cb9daf
+      internalID: 2092250627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_30
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1567
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e05375ae621624dafe7199717bd291
+      internalID: -2019160747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_31
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1569
+        width: 93
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af042260e1b14e4cb090c5278eca844
+      internalID: 911233262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_32
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1426
+        width: 27
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c516a494463c3cf4e90f87986a9507c0
+      internalID: 1895717272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_33
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1441
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd334b843d9f0744953e4e870d4463d
+      internalID: 714979900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_34
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1441
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9468508afa3d5734aa1a89b2d3bb6a1f
+      internalID: -1646153179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_35
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1441
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c991506f2dfc39e4b9272e128103be63
+      internalID: 1712685057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_36
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1298
+        width: 27
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6afeac52f31ad7479de02a30b05dd25
+      internalID: -2055125326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_37
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1298
+        width: 27
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b23eedde99860b43a95b3a2deb3f31d
+      internalID: -687010175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_38
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1298
+        width: 27
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697885f897cf0c8479c55976a291fe32
+      internalID: -2143841642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_39
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1298
+        width: 27
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1590c2ac8618e1043b4c9f8a2ffdb9c0
+      internalID: -660612184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_40
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1184
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1cfcaaa0e14dbc439302127333ff11f
+      internalID: 1299062855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_41
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1184
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9f94dba5f47ce49b9659f7afd1092f
+      internalID: -1600555932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_42
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1184
+        width: 69
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85124229da718342a04e6d7c91139e8
+      internalID: 1028186540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_43
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1184
+        width: 67
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7929c4614f33b4f999e8e9168c6a33
+      internalID: -1675039386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_44
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1057
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf363dc6f6cb13f468b8938e0a1de799
+      internalID: -588582338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_45
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1057
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2daeab61337afc4a846b68163280b03
+      internalID: 1944712303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_46
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1054
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1487476482680054b9bfacacccd31176
+      internalID: 573443006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_47
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1057
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4981362dd34e14e9ed40fee9450660
+      internalID: 97958345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_48
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 928
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5a345e5f8c8e448ba989677e5a917a
+      internalID: -1108223040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_49
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 928
+        width: 69
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92641adc8752b794481e086d48c4fca5
+      internalID: -1331839315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_50
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 928
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e74e5d551837c647bd1899375d57cbd
+      internalID: 1976370362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_51
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 928
+        width: 69
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32146da36f918f04b81d40033f307759
+      internalID: 136392077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_52
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 802
+        width: 87
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfe2df6e3c2afb4eadcd59f2ba50b91
+      internalID: 1117097412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_53
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 808
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29240fc697fede440be9c83a4c0a96e8
+      internalID: -1002252705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_54
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 812
+        width: 90
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c9bf38cfd4c2147a20a74310c69708
+      internalID: 45215207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_55
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 802
+        width: 88
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b14981fd4a22964d83aa5301e5c4842
+      internalID: 861809535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_56
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 672
+        width: 94
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878f188c2dd792541b1058f537806294
+      internalID: 147356068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_57
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 672
+        width: 96
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e99230af4e89545abb9deebadbaf03
+      internalID: -1874179597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_58
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 672
+        width: 99
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665835252dfe3fa47bf08357dd5b4252
+      internalID: -392472990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_59
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 672
+        width: 101
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ffdf0f1b50a8e42bce71b47781c76c
+      internalID: -780645085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 544
+        width: 93
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b424ee6ad3ae32b46bd470a9858997f1
+      internalID: -1674711788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_61
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 546
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72b7f5fa3b27af4e96580a00031102a
+      internalID: -1811394434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_62
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 546
+        width: 88
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fe9e44b5b68014f97cec940b7d64f7
+      internalID: -1101609073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_63
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 418
+        width: 88
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712c1180693490049b594050efa74b17
+      internalID: -585337762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_64
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 424
+        width: 88
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6418d76abbb7bc24f8147db46a904aeb
+      internalID: -873142784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_65
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 428
+        width: 88
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb65b4058acb8604eb1a8fa56dd58250
+      internalID: 1837171207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_66
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 418
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d369e7869057f74989a02da93ae4c42
+      internalID: 1554059774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_67
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 287
+        width: 92
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b844569d12e5f8944804727ad72eac23
+      internalID: -697817257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_68
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 287
+        width: 98
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45a7285e46b6e2488e5bc0c208539db
+      internalID: 1540508885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_69
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 287
+        width: 99
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9531f60ba40080e4ba9c40fe873e7a9f
+      internalID: 1307662192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_70
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 287
+        width: 101
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b501d9784a899409706c901bd8579a
+      internalID: -1587608473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_71
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 161
+        width: 95
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4f2e1c84059ab44a0e127b7553faa6
+      internalID: 772478132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_72
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 162
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdeeff0974dd0c48b90390b3cc0b6e8
+      internalID: 1049745058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-brown_73
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 162
+        width: 86
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa387ecd52a32024488a918a383d7410
+      internalID: -1615863472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      horse-brown_0: 555813796
+      horse-brown_1: -1220143175
+      horse-brown_10: -1333917321
+      horse-brown_11: -1506196550
+      horse-brown_12: 2078564142
+      horse-brown_13: -1444273925
+      horse-brown_14: -82831393
+      horse-brown_15: -815877721
+      horse-brown_16: 1464886735
+      horse-brown_17: -242993120
+      horse-brown_18: 1683079086
+      horse-brown_19: 346020315
+      horse-brown_2: -1034940528
+      horse-brown_20: -305126474
+      horse-brown_21: 646390740
+      horse-brown_22: -890174684
+      horse-brown_23: -110636973
+      horse-brown_24: -661217520
+      horse-brown_25: -1636346802
+      horse-brown_26: -1679669538
+      horse-brown_27: 1203221925
+      horse-brown_28: -647798196
+      horse-brown_29: 2092250627
+      horse-brown_3: 1248299807
+      horse-brown_30: -2019160747
+      horse-brown_31: 911233262
+      horse-brown_32: 1895717272
+      horse-brown_33: 714979900
+      horse-brown_34: -1646153179
+      horse-brown_35: 1712685057
+      horse-brown_36: -2055125326
+      horse-brown_37: -687010175
+      horse-brown_38: -2143841642
+      horse-brown_39: -660612184
+      horse-brown_4: -1320267975
+      horse-brown_40: 1299062855
+      horse-brown_41: -1600555932
+      horse-brown_42: 1028186540
+      horse-brown_43: -1675039386
+      horse-brown_44: -588582338
+      horse-brown_45: 1944712303
+      horse-brown_46: 573443006
+      horse-brown_47: 97958345
+      horse-brown_48: -1108223040
+      horse-brown_49: -1331839315
+      horse-brown_5: -231957267
+      horse-brown_50: 1976370362
+      horse-brown_51: 136392077
+      horse-brown_52: 1117097412
+      horse-brown_53: -1002252705
+      horse-brown_54: 45215207
+      horse-brown_55: 861809535
+      horse-brown_56: 147356068
+      horse-brown_57: -1874179597
+      horse-brown_58: -392472990
+      horse-brown_59: -780645085
+      horse-brown_6: 799357547
+      horse-brown_60: -1674711788
+      horse-brown_61: -1811394434
+      horse-brown_62: -1101609073
+      horse-brown_63: -585337762
+      horse-brown_64: -873142784
+      horse-brown_65: 1837171207
+      horse-brown_66: 1554059774
+      horse-brown_67: -697817257
+      horse-brown_68: 1540508885
+      horse-brown_69: 1307662192
+      horse-brown_7: -823968285
+      horse-brown_70: -1587608473
+      horse-brown_71: 772478132
+      horse-brown_72: 1049745058
+      horse-brown_73: -1615863472
+      horse-brown_8: 735665320
+      horse-brown_9: -2047522942
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

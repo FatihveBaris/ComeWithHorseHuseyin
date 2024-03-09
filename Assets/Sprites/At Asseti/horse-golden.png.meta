@@ -1,0 +1,1768 @@
+fileFormatVersion: 2
+guid: 0d7866624be121c418bdee21ec354ece
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: horse-golden_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2447
+        width: 26
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f8c694406ff7b45aeeec0fe7f19a6d
+      internalID: 464203632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 2451
+        width: 26
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06622a31bf029b54997226f6ef8f0f6b
+      internalID: 996808816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2459
+        width: 24
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb81b33281a81e4d9b254870e603442
+      internalID: -372862568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_3
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2454
+        width: 24
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f677c49474d81d4a974aaf1e25ab14d
+      internalID: -1902805515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2343
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3e40ad0d383a3499c08fb3a2a60a5c
+      internalID: -302511454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_5
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2334
+        width: 94
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c013dec52e77805469aa0af47ae0f05f
+      internalID: -2065121385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2334
+        width: 101
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca71aaf2e103c9c469b1aa2815179314
+      internalID: 305525997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_7
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2337
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e978af01096a8444ac494436e157e5c
+      internalID: 1597884856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2203
+        width: 25
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ce6d18e08bef1439d87f2ff3b33417
+      internalID: 1774454652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_9
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 2204
+        width: 25
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a6f09091b537c4a864a669ae286ffb
+      internalID: 613271333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_10
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 2213
+        width: 25
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3118508cbba07724c883b543d48924c0
+      internalID: 1158368989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_11
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 2211
+        width: 25
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad75cbcd59b85a40a05012403400d6b
+      internalID: -622279185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2087
+        width: 89
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451ca3772c42d6b409a8558887aafd63
+      internalID: 375398334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_13
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2078
+        width: 94
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b98642ace478640b1a9836ebc8a7dd
+      internalID: -27484951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_14
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2078
+        width: 101
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6001bfe202386949912864f5878279c
+      internalID: 801521532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_15
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 2081
+        width: 91
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317a019d8ea8c404fae717e61a5cfc10
+      internalID: -1010424147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_16
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1938
+        width: 25
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3366e2fd2fbfe144ab1fed696197224b
+      internalID: 286378313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_17
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1939
+        width: 24
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd3782a6e8d44441ac165c32b2c1ac3
+      internalID: 130311590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_18
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1938
+        width: 27
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b2cd1b8054145418ce21ca1cc949bc
+      internalID: 33194818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_19
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1939
+        width: 24
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f9b7dcd6041a148bd4ced006b25974
+      internalID: 505948343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1824
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09e23362dd7b2a46bc88a503cdb2f24
+      internalID: 1285966979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_21
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1826
+        width: 67
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2213e11039ce29f4aac0d037dee8d525
+      internalID: -1568388258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_22
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1823
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2949439228effc74a954f5eeef5bb5c3
+      internalID: -1387092780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_23
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1826
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1160b1348ff2949b84fb6ed77e9cb7
+      internalID: 1596092479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_24
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1693
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a609b0506c5e0e468067f00688386fd
+      internalID: -839816848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_25
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1697
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a513354f4bde844a6673fb7f0a7382
+      internalID: 1308521135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_26
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1693
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2000062cdd0bcfc499c864161ebfcbd6
+      internalID: -421599749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_27
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1697
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c33df0cf886e8d4092319cd1b24209e
+      internalID: 1164407890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1568
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a4a3d1da7695940af1a3eee5b2dc33
+      internalID: 1534398282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_29
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1569
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b62ac39fcdeb0418042b1967402781
+      internalID: -1655346384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_30
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1567
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1779902ab9359d4d9735f30d787c56f
+      internalID: 100055712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_31
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1569
+        width: 93
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46036790ad8d39f40b855c73671a6b1b
+      internalID: 1315776632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_32
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1426
+        width: 27
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3a008d4e725ae4483148f3523d16f7
+      internalID: -1614862117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_33
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1441
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bd1d3dcf5bbdb4ea769130adefb801
+      internalID: 546489780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_34
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1441
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4949a13fda76f1743a77b35c795ce5b8
+      internalID: -123328471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_35
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1441
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7df6af48be11e248b6ff9a3f84b3ab2
+      internalID: 1594665123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_36
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1298
+        width: 27
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46965e9711a669b428018dbcdba678c4
+      internalID: 1408562778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_37
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1298
+        width: 27
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35a9cb61bdaf144b92529b7b79e5bec
+      internalID: 1210944754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_38
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1298
+        width: 27
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2331308d9aa9a4e8303a90b209333e
+      internalID: 770527655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_39
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1298
+        width: 27
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52f7454699cb094ba9fb2ec42f957e3
+      internalID: -1104904094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_40
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1184
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ec1613616338344b696b37af7c12eb
+      internalID: 1444525303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_41
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1184
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22327c2667ea27b4bb53575ad13e55c7
+      internalID: -292791002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_42
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1184
+        width: 69
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87391c5089d06a34e897eea6bc66026f
+      internalID: -556817795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_43
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1184
+        width: 67
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce203a998fd497e428e41eadf9776ce9
+      internalID: 193077153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_44
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1057
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5386e633ce524438c5ea86bd8c6a72
+      internalID: -1407419940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_45
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1057
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402daddc20402be4fb139a31ac23e9e1
+      internalID: 1691860295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_46
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1054
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a91e60e5410d04b9a07a55c3376c82
+      internalID: -829935716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_47
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1057
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771f2547e5a05d140bf588e310378d96
+      internalID: -736877076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_48
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 928
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440ef2af7bc37144a986f49f4d802f33
+      internalID: 1124146061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_49
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 928
+        width: 69
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5ba8fd95a1c3d4b85cb9703b571839
+      internalID: 560054563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_50
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 928
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a852239a7a1e38c40bc807d5b28df9c2
+      internalID: -256458058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_51
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 928
+        width: 69
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a4a13c239dabb4d8703e31a2f6bf15
+      internalID: -598356375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_52
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 802
+        width: 87
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ada060775b24ad43b9fcb9c3115cbfb
+      internalID: -940261050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_53
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 808
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9134533ecf143e449adde5a0e3d687b5
+      internalID: 1368456290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_54
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 812
+        width: 90
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abb3f5d9dca29c4ca135830df4c243b
+      internalID: 385976646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_55
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 802
+        width: 88
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a942eeb053b4d142a8b73582bd48543
+      internalID: -1744755083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_56
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 672
+        width: 94
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20f08a852a1c4e459b60b89d2f192bd
+      internalID: 504586610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_57
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 672
+        width: 96
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fe0b6fdc560314e90edf4d6ec649e5
+      internalID: 1929809462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_58
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 672
+        width: 99
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e276bd7190d48b44b966b7c046bd904
+      internalID: -2119750083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_59
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 672
+        width: 101
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465a9d1444207a844aa22b77a714c95f
+      internalID: 598113886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 544
+        width: 93
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750461ed19f746240aac108f3e557384
+      internalID: -2091352183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_61
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 546
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b613cd8c80fca43b7dc08f1316b3b2
+      internalID: -1499511537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_62
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 546
+        width: 88
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1776c9924dbd7b48abb837fe84b7641
+      internalID: -713443649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_63
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 418
+        width: 88
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a2742a9f5cbef45921f9871c9d05fb
+      internalID: -601776317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_64
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 424
+        width: 88
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2124c937163c9348ba3a315ff805403
+      internalID: 754810067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_65
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 428
+        width: 88
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28348d592637f17429e1b2c0bb231e06
+      internalID: 412485177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_66
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 418
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b5b140b74d84c4e8871c04502081b3
+      internalID: -292422373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_67
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 287
+        width: 92
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1c527658a725c4e92ee3ce9924f288
+      internalID: 1073952927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_68
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 287
+        width: 98
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7f13e75098f9e44b41d477701af0ea
+      internalID: 1226281682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_69
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 287
+        width: 99
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae189ca1cf1dcb54b8863f3bd20bba21
+      internalID: 1948895236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_70
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 287
+        width: 101
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353542930be1196439d7dbda394ddf4a
+      internalID: 1936276795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_71
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 161
+        width: 95
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a455e6f520b08d40b5b079db0463bfa
+      internalID: 944165538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_72
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 162
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614f9dbbb82591146a8ce0604fdee2d8
+      internalID: -74363073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horse-golden_73
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 162
+        width: 86
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84a492fb1e3c24478333c23b6d44c34
+      internalID: 871493021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      horse-golden_0: 464203632
+      horse-golden_1: 996808816
+      horse-golden_10: 1158368989
+      horse-golden_11: -622279185
+      horse-golden_12: 375398334
+      horse-golden_13: -27484951
+      horse-golden_14: 801521532
+      horse-golden_15: -1010424147
+      horse-golden_16: 286378313
+      horse-golden_17: 130311590
+      horse-golden_18: 33194818
+      horse-golden_19: 505948343
+      horse-golden_2: -372862568
+      horse-golden_20: 1285966979
+      horse-golden_21: -1568388258
+      horse-golden_22: -1387092780
+      horse-golden_23: 1596092479
+      horse-golden_24: -839816848
+      horse-golden_25: 1308521135
+      horse-golden_26: -421599749
+      horse-golden_27: 1164407890
+      horse-golden_28: 1534398282
+      horse-golden_29: -1655346384
+      horse-golden_3: -1902805515
+      horse-golden_30: 100055712
+      horse-golden_31: 1315776632
+      horse-golden_32: -1614862117
+      horse-golden_33: 546489780
+      horse-golden_34: -123328471
+      horse-golden_35: 1594665123
+      horse-golden_36: 1408562778
+      horse-golden_37: 1210944754
+      horse-golden_38: 770527655
+      horse-golden_39: -1104904094
+      horse-golden_4: -302511454
+      horse-golden_40: 1444525303
+      horse-golden_41: -292791002
+      horse-golden_42: -556817795
+      horse-golden_43: 193077153
+      horse-golden_44: -1407419940
+      horse-golden_45: 1691860295
+      horse-golden_46: -829935716
+      horse-golden_47: -736877076
+      horse-golden_48: 1124146061
+      horse-golden_49: 560054563
+      horse-golden_5: -2065121385
+      horse-golden_50: -256458058
+      horse-golden_51: -598356375
+      horse-golden_52: -940261050
+      horse-golden_53: 1368456290
+      horse-golden_54: 385976646
+      horse-golden_55: -1744755083
+      horse-golden_56: 504586610
+      horse-golden_57: 1929809462
+      horse-golden_58: -2119750083
+      horse-golden_59: 598113886
+      horse-golden_6: 305525997
+      horse-golden_60: -2091352183
+      horse-golden_61: -1499511537
+      horse-golden_62: -713443649
+      horse-golden_63: -601776317
+      horse-golden_64: 754810067
+      horse-golden_65: 412485177
+      horse-golden_66: -292422373
+      horse-golden_67: 1073952927
+      horse-golden_68: 1226281682
+      horse-golden_69: 1948895236
+      horse-golden_7: 1597884856
+      horse-golden_70: 1936276795
+      horse-golden_71: 944165538
+      horse-golden_72: -74363073
+      horse-golden_73: 871493021
+      horse-golden_8: 1774454652
+      horse-golden_9: 613271333
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
