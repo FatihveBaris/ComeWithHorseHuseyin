@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 673317126904345219}
   - component: {fileID: 7554568514239566069}
+  - component: {fileID: 2469472805592853450}
   m_Layer: 0
   m_Name: pist
   m_TagString: Untagged
@@ -84,3 +85,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2469472805592853450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080618427543624007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eaaf9d62280e904680c8d9be71221c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spritePrefab: {fileID: 2080618427543624007}
+  movementSpeed: 5
+  spawnPoint: {x: 0, y: 0, z: 0}

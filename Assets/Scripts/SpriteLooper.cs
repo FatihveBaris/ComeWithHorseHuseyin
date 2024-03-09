@@ -1,27 +1,28 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Burst.Intrinsics;
 using UnityEngine;
 
 public class SpriteLooper : MonoBehaviour
 {
-    public GameObject spritePrefab; // Sprite prefab'ınızı buraya sürükleyin
     public float movementSpeed = 5f; // Sprite'ların hareket hızı
-    public Vector3 spawnPoint; // Yeni sprite'ların oluşacağı nokta
+    public Vector3 spawnPoint; // Sprite'ın ışınlandığı nokta
+    public Vector3 gecisPoint; // Sprite'ın son geçtiği nokta
 
-    private void Update()
+    private void Start()
     {
-        // Mevcut sprite'ları sola doğru hareket ettir
-        transform.Translate(-movementSpeed * Time.deltaTime, 0, 0);
-
-        // Eğer sprite kameranın sol tarafına geçerse
-        if (transform.position.x < Camera.main.ScreenToWorldPoint(new Vector3(0, 0, 1.95f)).x)
-        {
-            // Yeni bir sprite oluştur
-            Instantiate(spritePrefab, spawnPoint, Quaternion.identity);
-
-            // Mevcut sprite'ı sil
-            Destroy(gameObject);
-        }
+        spawnPoint = new Vector3(26.8f, 0f, 1.95f);
+        gecisPoint = new Vector3(-27f, 0f, 1.95f);
     }
+
+    private void FixedUpdate()
+    {
+        transform.Translate(movementSpeed*Time.deltaTime*Vector3.left);
+        if (transform.position.x <= gecisPoint.x)
+        {
+            transform.position = spawnPoint;
+        }
+    } 
 }
 
