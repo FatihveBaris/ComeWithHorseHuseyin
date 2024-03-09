@@ -12,8 +12,9 @@ public class SpriteLooper : MonoBehaviour
 
     private void Start()
     {
-        spawnPoint = new Vector3(26.8f, 0f, 1.95f);
-        gecisPoint = new Vector3(-27f, 0f, 1.95f);
+        //Bunları direkt prefab'ın UI'dan ekledim.
+        //spawnPoint = new Vector3(26.8f, 0f, 1.95f);
+        //gecisPoint = new Vector3(-27f, 0f, 1.95f);
     }
 
     private void FixedUpdate()
@@ -21,7 +22,8 @@ public class SpriteLooper : MonoBehaviour
         transform.Translate(movementSpeed*Time.deltaTime*Vector3.left);
         if (transform.position.x <= gecisPoint.x)
         {
-            transform.position = spawnPoint;
+            this.transform.localPosition = spawnPoint;
+            Debug.Log($"sprite ışınlandı: {this.transform.localPosition}");
         }
     } 
 }

@@ -97,6 +97,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eaaf9d62280e904680c8d9be71221c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spritePrefab: {fileID: 2080618427543624007}
   movementSpeed: 5
-  spawnPoint: {x: 0, y: 0, z: 0}
+  spawnPoint: {x: 26.8, y: 0, z: 1.95}
+  gecisPoint: {x: -27, y: 0, z: 1.95}
