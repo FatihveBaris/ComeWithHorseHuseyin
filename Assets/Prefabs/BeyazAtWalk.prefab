@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4742025020354249703}
   - component: {fileID: 4450664501664883479}
   - component: {fileID: 1053033122397679172}
+  - component: {fileID: 1154297626987778542}
   m_Layer: 0
   m_Name: BeyazAtWalk
   m_TagString: Untagged
@@ -152,3 +153,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6706543, y: 0.64}
   m_EdgeRadius: 0
+--- !u!114 &1154297626987778542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5777728794408191928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad26fab683c090740ae5b883e5d18066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KeepAspectRatio: 1
