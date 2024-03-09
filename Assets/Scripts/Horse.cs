@@ -18,5 +18,17 @@ public class Horse : MonoBehaviour
     private void Start()
     {
         cursorController = GameObject.Find("Main Camera").GetComponent<CursorController>();
-    } 
+    }
+
+    private void OnMouseEnter()
+    {
+        cursorController.SetActiveCursor();
+        Debug.Log("Hipodrom: Atla collide olundu.");
+    }
+
+    private void OnMouseExit()
+    {
+        cursorController.SetNormalCursor();
+        Debug.Log("Hipodrom: Atla collide'tan çıkıldı.");
+    }
 }
