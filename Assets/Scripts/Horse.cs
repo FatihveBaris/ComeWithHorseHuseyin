@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using Object = System.Object;
 
@@ -12,6 +13,12 @@ public class Horse : MonoBehaviour
     [SerializeField] private int _age;
     [SerializeField] private string _jockeyName;
     [SerializeField] private bool isRunning = false;
+    private CursorController cursorController;
+
+    private void Start()
+    {
+        cursorController = GameObject.Find("Main Camera").GetComponent<CursorController>();
+    }
 
     public Horse(string horseName, float speed, string color, int age, string jockeyName)
     {
@@ -22,7 +29,7 @@ public class Horse : MonoBehaviour
         _jockeyName = jockeyName;
     } 
     
-    public void Run(bool boolean)
+    public void RunStatus(bool boolean)
     {
         isRunning = boolean;
     }
@@ -43,5 +50,14 @@ public class Horse : MonoBehaviour
             { "Jockey Name", _jockeyName }
         };
         return horseInfo;
+    }
+    
+    void OnMouseOver()
+    { 
+        cursorController.SetActiveCursor();
+    }
+    void OnMouseExit()
+    {
+        cursorController.SetNormalCursor();
     }
 }
