@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.Burst.Intrinsics;
 using UnityEngine;
 
 public class SpriteLooper : MonoBehaviour
@@ -9,6 +5,7 @@ public class SpriteLooper : MonoBehaviour
     public float movementSpeed = 5f; // Sprite'ların hareket hızı
     public Vector3 spawnPoint; // Sprite'ın ışınlandığı nokta
     public Vector3 gecisPoint; // Sprite'ın son geçtiği nokta
+    public static bool gameStarted = false; // Oyunun başladığını belirten değişken
 
     private void Start()
     {
@@ -19,11 +16,14 @@ public class SpriteLooper : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.Translate(movementSpeed*Time.deltaTime*Vector3.left);
-        if (transform.position.x <= gecisPoint.x)
-        {
-            this.transform.localPosition = spawnPoint;
-            Debug.Log($"sprite ışınlandı: {this.transform.localPosition}");
+        if (gameStarted)
+        { 
+            transform.Translate(movementSpeed*Time.deltaTime*Vector3.left);
+            if (transform.position.x <= gecisPoint.x)
+            {
+                this.transform.localPosition = spawnPoint;
+                Debug.Log($"sprite ışınlandı: {this.transform.localPosition}");
+            }
         }
     } 
 }
