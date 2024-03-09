@@ -15,7 +15,7 @@ public class Main_menu : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-    public void SetttingsButton()
+    public void SettingsButton()
     {
         MainMenuCanvas.GetComponent<Canvas>().enabled = false;
         CreditsCanvas.GetComponent<Canvas>().enabled = false;
