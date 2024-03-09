@@ -22,7 +22,7 @@ public class SpriteLooper : MonoBehaviour
             if (transform.position.x <= gecisPoint.x)
             {
                 this.transform.localPosition = spawnPoint;
-                Debug.Log($"sprite ışınlandı: {this.transform.localPosition}");
+                PistController.turAtildiMi = true;
             }
         }
     } 
