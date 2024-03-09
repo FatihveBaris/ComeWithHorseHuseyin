@@ -6,9 +6,7 @@ public class Horse : MonoBehaviour
     public bool isRunning;
     private CursorController cursorController;
     private SpriteRenderer spriteRenderer;
-    public Sprite runningSprite; // Assign the new sprite in the Inspector
-    public Sprite walkingSprite; // Assign the new sprite in the Inspector
-
+    
     private void Start()
     {
         cursorController = GameObject.Find("Main Camera").GetComponent<CursorController>();
@@ -44,30 +42,12 @@ public class Horse : MonoBehaviour
     
     public void StartRunning()
     {
-        isRunning = true; 
-        if (spriteRenderer != null && runningSprite != null)
-        {
-            // Change the sprite
-            spriteRenderer.sprite = runningSprite;
-        }
-        else
-        {
-            Debug.LogWarning("SpriteRenderer or newSprite is not assigned.");
-        }
+        isRunning = true;  
     }
     
     public void StopRunning()
     {
-        isRunning = false; 
-        if (spriteRenderer != null && walkingSprite != null)
-        {
-            // Change the sprite
-            spriteRenderer.sprite = walkingSprite;
-        }
-        else
-        {
-            Debug.LogWarning("SpriteRenderer or newSprite is not assigned.");
-        }
+        isRunning = false;  
     }
     
     public void ChangeSpeed(float newSpeed)
