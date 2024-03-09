@@ -6,14 +6,14 @@ using Object = System.Object;
 
 public class Horse : MonoBehaviour
 {
-    private string _horseName; 
-    private float _speed;
-    private string _color;
-    private int _age;
-    private int _jockeyName;
+    [SerializeField] private string _horseName; 
+    [SerializeField] private float _speed;
+    [SerializeField] private string _color;
+    [SerializeField] private int _age;
+    [SerializeField] private string _jockeyName;
     [SerializeField] private bool isRunning = false;
 
-    public Horse(string horseName, float speed, string color, int age, int jockeyName)
+    public Horse(string horseName, float speed, string color, int age, string jockeyName)
     {
         _horseName = horseName;
         _speed = speed;
