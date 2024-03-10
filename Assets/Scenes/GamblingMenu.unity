@@ -7148,6 +7148,13 @@ MonoBehaviour:
   - {fileID: 292609654}
   - {fileID: 33316223}
   - {fileID: 944843677}
+  kosuToggles:
+  - {fileID: 1191383531}
+  - {fileID: 1625424593}
+  - {fileID: 1001030267}
+  - {fileID: 284825558}
+  - {fileID: 1625089417}
+  - {fileID: 667961915}
 --- !u!1 &1548975392
 GameObject:
   m_ObjectHideFlags: 0

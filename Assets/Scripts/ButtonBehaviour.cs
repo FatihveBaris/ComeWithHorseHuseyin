@@ -50,6 +50,12 @@ public class ButtonBehaviour : MonoBehaviour
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
+        else if (SceneManager.GetActiveScene().buildIndex == 3)
+        {
+            // toggle controller dan işaretli butonlari isteyip at adlarını game manager a gönder.
+            GameManager.signal = true;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
         else if (SceneManager.GetActiveScene().buildIndex == 4)
         {
             // ending buttonları
