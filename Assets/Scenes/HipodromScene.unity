@@ -2483,10 +2483,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4421493820915184500, guid: e94a70435a6883b43b8a9834cf0d6fe4, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 1612108228415584871}
     - target: {fileID: 6667755532259873647, guid: e94a70435a6883b43b8a9834cf0d6fe4, type: 3}
       propertyPath: m_Name
       value: Golden Horse
@@ -2510,11 +2506,6 @@ MonoBehaviour:
 --- !u!1 &1612108228415584870 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6667755532259873647, guid: e94a70435a6883b43b8a9834cf0d6fe4, type: 3}
-  m_PrefabInstance: {fileID: 1612108228415584868}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1612108228415584871 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5362824805871218596, guid: e94a70435a6883b43b8a9834cf0d6fe4, type: 3}
   m_PrefabInstance: {fileID: 1612108228415584868}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4450226088854716902

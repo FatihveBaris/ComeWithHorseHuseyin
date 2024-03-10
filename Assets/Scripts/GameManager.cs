@@ -16,10 +16,10 @@ public class GameManager : MonoBehaviour
     public static bool signal = false;  
     private Dictionary<int, string> horseNameMap = new Dictionary<int, string>
     {
-        {1, "Black Horse"},
-        {2, "Brown Horse"},
-        {3, "Golden Horse"},
-        {4, "White Horse"} 
+        {0, "Black Horse"},
+        {1, "Brown Horse"},
+        {2, "Golden Horse"},
+        {3, "White Horse"} 
         // Add more entries as needed
     };
 
@@ -31,37 +31,58 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(gameObject); 
             // Subscribe to the sceneLoaded event
             SceneManager.sceneLoaded += OnSceneLoaded; 
-    } 
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+            SceneManager.sceneUnloaded += OnSceneUnloaded;
+    }
+
+    private void FixedUpdate()
     {
-        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("GamblingMenu") && signal)
+        if (signal)
         {
-            _toggleController = GameObject.FindWithTag("BiletTikParent").GetComponent<ToggleController>();
+            Debug.Log("girdim");
             signal = false;
+            _toggleController = GameObject.FindWithTag("BiletTikParent").GetComponent<ToggleController>(); 
             reqList = _toggleController.GetSelectedToggles();
             for (int i = 0; i < reqList.Count; i++)
             {
+                Debug.Log(reqList[i]);
                 if (reqList[i].EndsWith('0'))
                 {
                     // Birinci atı tespit eden kod.
                     BirinciSecilenAt = Convert.ToInt32(reqList[i].Substring(0, 1)); 
+                    Debug.Log($"Birinci at: {GetHorseName(BirinciSecilenAt)}");
                 }
                 else if (reqList[i].EndsWith('1'))
                 { 
                     IkinciSecilenAt = Convert.ToInt32(reqList[i].Substring(0, 1)); 
+                    Debug.Log($"İkinci at: {GetHorseName(BirinciSecilenAt)}");
                 }
                 else if (reqList[i].EndsWith('2'))
                 { 
-                    UcuncuSecilenAt = Convert.ToInt32(reqList[i].Substring(0, 1)); 
+                    UcuncuSecilenAt = Convert.ToInt32(reqList[i].Substring(0, 1));  
+                    Debug.Log($" Ucuncu at: {GetHorseName(BirinciSecilenAt)}");
                 }
                 else if (reqList[i].EndsWith('3'))
                 { 
                     DorduncuSecilenAt = Convert.ToInt32(reqList[i].Substring(0, 1)); 
+                    Debug.Log($" Ucuncu at: {GetHorseName(DorduncuSecilenAt)}");
                 }
             } 
+        }
+    }
+
+    private void OnSceneUnloaded(Scene scene)
+    {
+        if (scene.name == "GamblingMenu")
+        {
+            Debug.Log("GamblingMenu scene unloaded");
+            
         } 
-        else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("EndingScreens"))
+    }
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    { 
+        if (scene.name == "EndingScreens")
         { 
+            Debug.Log("EndingScreens scene loaded");
             if (GetHorseName(BirinciSecilenAt) == kazananlar[0].name)
             {
                 //GameObject.Find("GoodEnding").SetActive(false);

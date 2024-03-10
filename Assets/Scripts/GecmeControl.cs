@@ -6,19 +6,25 @@ public class GecmeControl : MonoBehaviour
 {
     public List<GameObject> gameObjects = new List<GameObject>();
     private float counter = 0f;
+    private bool trigger = false;
 
     void Update()
     {
         counter += Time.deltaTime;
-        if (counter >= 25f)
+        if (counter >= 25f && trigger)
+        { 
+            SortGameObjects(); 
+        }
+
+        if (counter >= 26f)
         {
-            counter = 0f;
-            SortGameObjects();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
     void SortGameObjects()
-  {
+    {
+        trigger = false;
         // Sort the gameObjects list based on x positions
         gameObjects.Sort((a, b) => b.transform.position.x.CompareTo(a.transform.position.x));
 
@@ -29,7 +35,6 @@ public class GecmeControl : MonoBehaviour
             GameManager.kazananlar[i] = gameObjects[i];
         }
 
-        SceneManager.LoadScene("EndingScreens");
-  }
+    }
 
 }
