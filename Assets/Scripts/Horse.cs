@@ -89,6 +89,6 @@ public class Horse : MonoBehaviour
     private void HorseMovement()
     {
         transform.Translate(Vector3.right * (speed * Time.deltaTime));
-        Debug.Log($"Horse is moving! Horse: {gameObject.name} , location: {transform.position}");
+        //Debug.Log($"Horse is moving! Horse: {gameObject.name} , location: {transform.position}");
     }
 }
