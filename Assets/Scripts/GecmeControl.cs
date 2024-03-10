@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GecmeControl : MonoBehaviour
 {
@@ -27,6 +28,8 @@ public class GecmeControl : MonoBehaviour
             Debug.Log($"{i + 1}. at: x = {gameObjects[i].name}");
             GameManager.kazananlar[i] = gameObjects[i];
         }
-    }
+
+        SceneManager.LoadScene("EndingScreens");
+  }
 
 }
