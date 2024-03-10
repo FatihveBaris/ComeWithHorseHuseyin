@@ -176,6 +176,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   presscount: 0
+  Img1: {fileID: 0}
+  Img2: {fileID: 0}
 --- !u!114 &75968766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1028,6 +1030,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   presscount: 0
+  Img1: {fileID: 0}
+  Img2: {fileID: 0}
 --- !u!114 &1617909457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1269,6 +1273,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   presscount: 0
+  Img1: {fileID: 0}
+  Img2: {fileID: 0}
 --- !u!1 &1752918174
 GameObject:
   m_ObjectHideFlags: 0
