@@ -26,6 +26,7 @@ public class GecmeControl : MonoBehaviour
         for (int i = 0; i < gameObjects.Count; i++)
         {
             Debug.Log($"{i + 1}. at: x = {gameObjects[i].name}");
+            GameManager.kazananlar[i] = gameObjects[i];
         }
     }
 
