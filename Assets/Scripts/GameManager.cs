@@ -8,7 +8,10 @@ public class GameManager : MonoBehaviour
 {
     public int money = 20;
     public int oynananMac = 0;
-    public static int HuseyininSectigiAt;
+    public static int BirinciSecilenAt;
+    public static int IkinciSecilenAt;
+    public static int UcuncuSecilenAt;
+    public static int DorduncuSecilenAt;
     public static bool signal = false;
     private ToggleController _toggleController;
     private List<String> reqList;
@@ -31,8 +34,19 @@ public class GameManager : MonoBehaviour
                 if (reqList[i].EndsWith('1'))
                 {
                     // Birinci atı tespit eden kod.
-                    HuseyininSectigiAt = Convert.ToInt32(reqList[i].Substring(0, 1));
-                    break;
+                    BirinciSecilenAt = Convert.ToInt32(reqList[i].Substring(0, 1)); 
+                }
+                else if (reqList[i].EndsWith('2'))
+                { 
+                    IkinciSecilenAt = Convert.ToInt32(reqList[i].Substring(0, 1)); 
+                }
+                else if (reqList[i].EndsWith('3'))
+                { 
+                    UcuncuSecilenAt = Convert.ToInt32(reqList[i].Substring(0, 1)); 
+                }
+                else if (reqList[i].EndsWith('4'))
+                { 
+                    DorduncuSecilenAt = Convert.ToInt32(reqList[i].Substring(0, 1)); 
                 }
             } 
         }
