@@ -36,9 +36,9 @@ public class Horse : MonoBehaviour
         {
             transform.position = new Vector3(7.27f, transform.position.y, transform.position.z);
         }
-        else if (transform.position.x < -10f)
+        else if (transform.position.x < -9.5f)
         {
-            transform.position = new Vector3(-10f, transform.position.y, transform.position.z); 
+            transform.position = new Vector3(-9.5f, transform.position.y, transform.position.z); 
         }
     }
 

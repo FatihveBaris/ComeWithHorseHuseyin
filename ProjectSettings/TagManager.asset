@@ -6,6 +6,7 @@ TagManager:
   tags:
   - TV
   - Horse
+  - SoundManager
   layers:
   - Default
   - TransparentFX
