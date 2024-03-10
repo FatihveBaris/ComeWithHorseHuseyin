@@ -1059,6 +1059,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Timer
       objectReference: {fileID: 0}
+    - target: {fileID: 3545780847060545849, guid: d6624adc1d68d6844837c58197392452, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 19.090006
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545780847060545849, guid: d6624adc1d68d6844837c58197392452, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -9.544983
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545780847060545849, guid: d6624adc1d68d6844837c58197392452, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -66.56
+      objectReference: {fileID: 0}
     - target: {fileID: 8796206172250739413, guid: d6624adc1d68d6844837c58197392452, type: 3}
       propertyPath: m_Pivot.x
       value: 0
