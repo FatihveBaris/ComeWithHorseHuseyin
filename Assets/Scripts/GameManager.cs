@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
     public int money = 20;
     public int oynananMac = 0;
-    public int HuseyininSectigiAt;
+    public static int HuseyininSectigiAt;
     public static bool signal = false;
     private ToggleController _toggleController;
     private List<String> reqList;
@@ -35,6 +35,16 @@ public class GameManager : MonoBehaviour
                     break;
                 }
             } 
+        }
+        else if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("EndingScreens"))
+        {
+            if (money > 10000)
+            {
+                GameObject.Find("GoodEnding").SetActive(true);
+                GameObject.Find("WonTheBet").SetActive(false);
+                GameObject.Find("GameOver").SetActive(false);
+            }
+            
         }
     }
 } 

@@ -54,7 +54,7 @@ public class ButtonBehaviour : MonoBehaviour
         {
             // toggle controller dan işaretli butonlari isteyip at adlarını game manager a gönder.
             GameManager.signal = true;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            Invoke("SwitchToNext",1f);
         }
         else if (SceneManager.GetActiveScene().buildIndex == 4)
         {
@@ -73,5 +73,9 @@ public class ButtonBehaviour : MonoBehaviour
             // diğer buttonlar
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); 
         }
+    } 
+    void SwitchToNext()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
