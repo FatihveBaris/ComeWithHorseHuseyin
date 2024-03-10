@@ -5,48 +5,43 @@ using UnityEngine.UI;
 
 public class BiletTikParent : MonoBehaviour
 {
-    public ToggleGroup group1;
-    public ToggleGroup group2;
-    public ToggleGroup group3;
-    public ToggleGroup group4;
+    public Toggle[,] toggles = new Toggle[4, 4];
 
     void Start()
     {
-        // Her bir grup için Toggle'ları ayarla
-        SetTogglesForGroup(group1);
-        SetTogglesForGroup(group2);
-        SetTogglesForGroup(group3);
-        SetTogglesForGroup(group4);
-    }
-
-    void SetTogglesForGroup(ToggleGroup group)
-    {
-        // Grubun içindeki tüm Toggle'ları al
-        Toggle[] toggles = group.GetComponentsInChildren<Toggle>();
-
-        // Her bir Toggle için bir event ekleyin
-        foreach (Toggle toggle in toggles)
+        // Assuming your toggles are arranged in a 4x4 grid in the Unity Editor
+        for (int row = 1; row <= 4; row++)
         {
-            toggle.onValueChanged.AddListener(delegate {
-                ToggleValueChanged(toggle, group);
-            });
-        }
-    }
-
-    void ToggleValueChanged(Toggle changedToggle, ToggleGroup group)
-    {
-        // Değişen Toggle'ın değeri true ise, diğerlerini false yap
-        if (changedToggle.isOn)
-        {
-            Toggle[] toggles = group.GetComponentsInChildren<Toggle>();
-            foreach (Toggle toggle in toggles)
+            for (int col = 1; col <= 4; col++)
             {
-                if (toggle != changedToggle)
-                {
-                    toggle.isOn = false;
-                }
+                string toggleName = row.ToString() + "_" + col.ToString();
+                toggles[row - 1, col - 1] = GameObject.Find(toggleName).GetComponent<Toggle>();
+                toggles[row - 1, col - 1].onValueChanged.AddListener((value) => toggleDegistir(row - 1, col - 1, value));
             }
         }
     }
 
+    public void toggleDegistir(int row, int col, bool value)
+    {
+        if (value && row >= 0 && row < 4 && col >= 0 && col < 4)
+        {
+            // Turn off other toggles in the same row
+            for (int c = 0; c < 4; c++)
+            {
+                if (c != col)
+                {
+                    toggles[row, c].isOn = false;
+                }
+            }
+
+            // Turn off other toggles in the same column
+            for (int r = 0; r < 4; r++)
+            {
+                if (r != row)
+                {
+                    toggles[r, col].isOn = false;
+                }
+            }
+        }
+    } 
 }
