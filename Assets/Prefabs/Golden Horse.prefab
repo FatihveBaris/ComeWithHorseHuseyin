@@ -148,7 +148,6 @@ MonoBehaviour:
   speed: 0.4
   isRunning: 0
   lerpSpeed: 0.5
-  animator: {fileID: 0}
 --- !u!95 &5362824805871218596
 Animator:
   serializedVersion: 5
