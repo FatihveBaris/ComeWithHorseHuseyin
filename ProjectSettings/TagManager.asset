@@ -9,6 +9,7 @@ TagManager:
   - SoundManager
   - BiletTikParent
   - KosuTikParent
+  - GameManager
   layers:
   - Default
   - TransparentFX

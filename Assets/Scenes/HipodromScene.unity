@@ -1443,6 +1443,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 113542255}
     m_Modifications:
+    - target: {fileID: 4110079870856695158, guid: 5b45f51276af9234f8ecfe5199a26789, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1860951521}
     - target: {fileID: 5809883678539226118, guid: 5b45f51276af9234f8ecfe5199a26789, type: 3}
       propertyPath: m_Name
       value: Black Horse
@@ -2075,6 +2079,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2419032645389852115, guid: e94a70435a6883b43b8a9834cf0d6fe4, type: 3}
   m_PrefabInstance: {fileID: 1612108228415584868}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1860951521 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8712863504737908533, guid: 5b45f51276af9234f8ecfe5199a26789, type: 3}
+  m_PrefabInstance: {fileID: 1535645289}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1923104446
 GameObject:
   m_ObjectHideFlags: 0
@@ -2438,6 +2447,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4421493820915184500, guid: e94a70435a6883b43b8a9834cf0d6fe4, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1612108228415584871}
     - target: {fileID: 6667755532259873647, guid: e94a70435a6883b43b8a9834cf0d6fe4, type: 3}
       propertyPath: m_Name
       value: Golden Horse
@@ -2458,6 +2471,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e26de2ba16922745a4b5a3eafebfbcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1612108228415584871 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5362824805871218596, guid: e94a70435a6883b43b8a9834cf0d6fe4, type: 3}
+  m_PrefabInstance: {fileID: 1612108228415584868}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4450226088854716902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2510,6 +2528,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6171974071309674323, guid: 3a3dc40e6b8c6dd4abca82bdad3eb3c6, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 4450226088854716904}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2526,6 +2548,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e26de2ba16922745a4b5a3eafebfbcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &4450226088854716904 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7192262966534745154, guid: 3a3dc40e6b8c6dd4abca82bdad3eb3c6, type: 3}
+  m_PrefabInstance: {fileID: 4450226088854716902}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8175348506533973341
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2631,6 +2658,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6290519938737053269, guid: a901db07274b4034c913bf65c856bc40, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 8230319936293331791}
     - target: {fileID: 7061288281085657951, guid: a901db07274b4034c913bf65c856bc40, type: 3}
       propertyPath: m_Name
       value: White Horse
@@ -2651,6 +2682,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e26de2ba16922745a4b5a3eafebfbcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &8230319936293331791 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4847402674215656040, guid: a901db07274b4034c913bf65c856bc40, type: 3}
+  m_PrefabInstance: {fileID: 8230319936293331788}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8472583508441280253
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -14,12 +14,7 @@ public class SoundManager : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         ChangeMusic(mainMenuMusic);
-    }
-
-    private void Awake()
-    {
-        DontDestroyOnLoad(this.gameObject);
-    }
+    } 
 
     void ChangeMusic(AudioClip input)
     {
