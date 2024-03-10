@@ -8,7 +8,7 @@ public class Countdown : MonoBehaviour
 {
     public float timeLeft = 3.0f; // Geri sayım süresi
     public TextMeshProUGUI countdownText; // Geri sayımı gösterecek UI Text nesnesi
-    private bool kickoff = false;
+    public static bool kickoff = false;
     private Horse[] _horses;
 
     private void Start()
@@ -50,6 +50,7 @@ public class Countdown : MonoBehaviour
         foreach (var horse in _horses)
         {
             horse.StartRunning();
+            horse.ChangeSpeed(2.51f);
         }
         kickoff = true; 
     }
