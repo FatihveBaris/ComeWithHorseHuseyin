@@ -21,10 +21,13 @@ public class HipodromManager : MonoBehaviour
         // At objelerine hız değerlerini ata
         for (int i = 0; i < speeds.Count; i++)
         {
-            horses[i].ChangeSpeed(-(horses[i].speed - speeds[i]));
+            if (i != GameManager.BirinciSecilenAt)
+            { 
+              horses[i].ChangeSpeed(-(horses[i].speed - speeds[i]));
+            }
         }
 
         // Kalan hızı belirli bir ata ata
-        horses[3].ChangeSpeed(-(horses[3].speed - remainingSpeed));
+        horses[GameManager.BirinciSecilenAt].ChangeSpeed(-(horses[GameManager.BirinciSecilenAt].speed - remainingSpeed));
     }
 }

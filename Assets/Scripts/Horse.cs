@@ -10,7 +10,7 @@ public class Horse : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private CurseController curseController;
     private float baseSpeed;
-    public float lerpSpeed = 0.6f;
+    public float lerpSpeed = 0.5f;
     
     private void Start()
     {
@@ -53,15 +53,15 @@ public class Horse : MonoBehaviour
     private void OnMouseEnter()
     {
         cursorController.SetActiveCursor(); 
-        curseController.StartCounter();
+        curseController.SetTheCurse(Time.deltaTime, this.gameObject); //orijinalinde time sayıp time kadar lanetliyordu.
     }
 
-    private void OnMouseExit()
+    /*private void OnMouseExit()
     {
         cursorController.SetNormalCursor(); 
         float timePassed = curseController.EndCounter();
         curseController.SetTheCurse(timePassed, this.gameObject);
-    }
+    }*/
     
     public void StartRunning()
     {
