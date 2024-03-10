@@ -80,9 +80,10 @@ public class GameManager : MonoBehaviour
     }
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     { 
-        if (scene.name == "EndingScreens")
+        Debug.Log("İçeri girdik.");
+        if (scene.buildIndex == 4) // çalışmıyor.
         { 
-            Debug.Log("EndingScreens scene loaded");
+            Debug.Log($"EndingScreens scene loaded, BirinciSecilenAt: {GetHorseName(BirinciSecilenAt)}, Oyundan gelen: {kazananlar[0].name}");
             if (GetHorseName(BirinciSecilenAt) == kazananlar[0].name)
             {
                 //GameObject.Find("GoodEnding").SetActive(false);
