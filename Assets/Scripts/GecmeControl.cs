@@ -9,8 +9,7 @@ public class GecmeControl : MonoBehaviour
     void Update()
     {
         counter += Time.deltaTime;
-        Debug.Log(counter);
-        if (counter >= 20f)
+        if (counter >= 25f)
         {
             counter = 0f;
             SortGameObjects();
