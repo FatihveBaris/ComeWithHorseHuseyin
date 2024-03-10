@@ -513,7 +513,7 @@ RectTransform:
   m_Children:
   - {fileID: 809547038}
   - {fileID: 1838703485}
-  m_Father: {fileID: 102216185}
+  m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -566,7 +566,19 @@ MonoBehaviour:
   m_Group: {fileID: 102216186}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1510645288}
+        m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
+        m_MethodName: Togglelaninca
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &34478268
 GameObject:
@@ -951,11 +963,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 33316222}
-  - {fileID: 1922917259}
-  - {fileID: 370611515}
-  - {fileID: 2111033513}
+  m_Children: []
   m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1233,7 +1241,7 @@ RectTransform:
   m_Children:
   - {fileID: 773555155}
   - {fileID: 1075275164}
-  m_Father: {fileID: 762045013}
+  m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1286,7 +1294,19 @@ MonoBehaviour:
   m_Group: {fileID: 762045014}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1510645288}
+        m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
+        m_MethodName: Togglelaninca
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &247886146
 GameObject:
@@ -1316,11 +1336,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1047156519}
-  - {fileID: 1891469693}
-  - {fileID: 2022355990}
-  - {fileID: 1385189427}
+  m_Children: []
   m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1762,7 +1778,7 @@ RectTransform:
   m_Children:
   - {fileID: 1548975393}
   - {fileID: 381886095}
-  m_Father: {fileID: 762045013}
+  m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1815,7 +1831,19 @@ MonoBehaviour:
   m_Group: {fileID: 762045014}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1510645288}
+        m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
+        m_MethodName: Togglelaninca
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &365295601
 GameObject:
@@ -1924,7 +1952,7 @@ RectTransform:
   m_Children:
   - {fileID: 252683875}
   - {fileID: 1468327122}
-  m_Father: {fileID: 102216185}
+  m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1977,7 +2005,19 @@ MonoBehaviour:
   m_Group: {fileID: 102216186}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1510645288}
+        m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
+        m_MethodName: Togglelaninca
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &381886094
 GameObject:
@@ -2289,7 +2329,7 @@ RectTransform:
   m_Children:
   - {fileID: 1765856056}
   - {fileID: 1994373557}
-  m_Father: {fileID: 762045013}
+  m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2342,7 +2382,19 @@ MonoBehaviour:
   m_Group: {fileID: 762045014}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1510645288}
+        m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
+        m_MethodName: Togglelaninca
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &515728348
 GameObject:
@@ -2833,7 +2885,7 @@ RectTransform:
   m_Children:
   - {fileID: 365295602}
   - {fileID: 1167107975}
-  m_Father: {fileID: 1918040130}
+  m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2886,7 +2938,19 @@ MonoBehaviour:
   m_Group: {fileID: 1918040131}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1510645288}
+        m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
+        m_MethodName: Togglelaninca
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &667961913
 GameObject:
@@ -3355,11 +3419,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 292609653}
-  - {fileID: 492443273}
-  - {fileID: 220147250}
-  - {fileID: 1344173872}
+  m_Children: []
   m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -4557,7 +4617,7 @@ RectTransform:
   m_Children:
   - {fileID: 1177861022}
   - {fileID: 2089100095}
-  m_Father: {fileID: 1918040130}
+  m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4610,7 +4670,19 @@ MonoBehaviour:
   m_Group: {fileID: 1918040131}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1510645288}
+        m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
+        m_MethodName: Togglelaninca
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &951922083
 GameObject:
@@ -5077,7 +5149,7 @@ RectTransform:
   m_Children:
   - {fileID: 1354070068}
   - {fileID: 1677222318}
-  m_Father: {fileID: 247886147}
+  m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5130,7 +5202,31 @@ MonoBehaviour:
   m_Group: {fileID: 247886148}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1510645288}
+        m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
+        m_MethodName: Togglelaninca
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1510645286}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &1068834185
 GameObject:
@@ -6064,7 +6160,7 @@ RectTransform:
   m_Children:
   - {fileID: 866887523}
   - {fileID: 898937271}
-  m_Father: {fileID: 762045013}
+  m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6117,7 +6213,19 @@ MonoBehaviour:
   m_Group: {fileID: 762045014}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1510645288}
+        m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
+        m_MethodName: Togglelaninca
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &1344464290
 GameObject:
@@ -6340,7 +6448,7 @@ RectTransform:
   m_Children:
   - {fileID: 1166321033}
   - {fileID: 533300667}
-  m_Father: {fileID: 247886147}
+  m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6393,7 +6501,31 @@ MonoBehaviour:
   m_Group: {fileID: 247886148}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1510645288}
+        m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
+        m_MethodName: Togglelaninca
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1510645286}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &1388678099
 GameObject:
@@ -6426,7 +6558,7 @@ RectTransform:
   m_Children:
   - {fileID: 1563862787}
   - {fileID: 1716065514}
-  m_Father: {fileID: 1918040130}
+  m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6479,7 +6611,19 @@ MonoBehaviour:
   m_Group: {fileID: 1918040131}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1510645288}
+        m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
+        m_MethodName: Togglelaninca
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &1396941119
 GameObject:
@@ -6821,7 +6965,7 @@ RectTransform:
   m_Children:
   - {fileID: 34478269}
   - {fileID: 2006770694}
-  m_Father: {fileID: 1918040130}
+  m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6874,7 +7018,19 @@ MonoBehaviour:
   m_Group: {fileID: 1918040131}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1510645288}
+        m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
+        m_MethodName: Togglelaninca
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &1468327121
 GameObject:
@@ -7113,6 +7269,22 @@ RectTransform:
   - {fileID: 762045013}
   - {fileID: 102216185}
   - {fileID: 1918040130}
+  - {fileID: 1047156519}
+  - {fileID: 1891469693}
+  - {fileID: 2022355990}
+  - {fileID: 1385189427}
+  - {fileID: 292609653}
+  - {fileID: 492443273}
+  - {fileID: 220147250}
+  - {fileID: 1344173872}
+  - {fileID: 33316222}
+  - {fileID: 1922917259}
+  - {fileID: 370611515}
+  - {fileID: 2111033513}
+  - {fileID: 944843676}
+  - {fileID: 1388678100}
+  - {fileID: 648362797}
+  - {fileID: 1430048233}
   m_Father: {fileID: 1224820448}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -7129,26 +7301,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1510645286}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 877f565250eb31c47824776522a9bfd3, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ac3acd1dc0265844bc38da3d4283bb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toggles:
-  - {fileID: 1047156520}
-  - {fileID: 1891469694}
-  - {fileID: 2022355991}
-  - {fileID: 1385189428}
-  - {fileID: 292609654}
-  - {fileID: 492443274}
-  - {fileID: 220147251}
-  - {fileID: 1344173873}
-  - {fileID: 33316223}
-  - {fileID: 1922917260}
-  - {fileID: 370611516}
-  - {fileID: 2111033514}
-  - {fileID: 944843677}
-  - {fileID: 1388678101}
-  - {fileID: 648362798}
-  - {fileID: 1430048234}
 --- !u!1 &1548975392
 GameObject:
   m_ObjectHideFlags: 0
@@ -8998,7 +9153,7 @@ RectTransform:
   m_Children:
   - {fileID: 982771420}
   - {fileID: 1887132890}
-  m_Father: {fileID: 247886147}
+  m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9051,7 +9206,31 @@ MonoBehaviour:
   m_Group: {fileID: 247886148}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1510645288}
+        m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
+        m_MethodName: Togglelaninca
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1510645286}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &1918040129
 GameObject:
@@ -9081,11 +9260,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 944843676}
-  - {fileID: 1388678100}
-  - {fileID: 648362797}
-  - {fileID: 1430048233}
+  m_Children: []
   m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -9287,7 +9462,7 @@ RectTransform:
   m_Children:
   - {fileID: 292148080}
   - {fileID: 802250174}
-  m_Father: {fileID: 102216185}
+  m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9340,7 +9515,19 @@ MonoBehaviour:
   m_Group: {fileID: 102216186}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1510645288}
+        m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
+        m_MethodName: Togglelaninca
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &1951910992
 GameObject:
@@ -9682,7 +9869,7 @@ RectTransform:
   m_Children:
   - {fileID: 684421375}
   - {fileID: 27786128}
-  m_Father: {fileID: 247886147}
+  m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9735,7 +9922,31 @@ MonoBehaviour:
   m_Group: {fileID: 247886148}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1510645288}
+        m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
+        m_MethodName: Togglelaninca
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1510645286}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &2050951951
 GameObject:
@@ -10306,7 +10517,7 @@ RectTransform:
   m_Children:
   - {fileID: 1396941120}
   - {fileID: 1724238150}
-  m_Father: {fileID: 102216185}
+  m_Father: {fileID: 1510645287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10359,7 +10570,19 @@ MonoBehaviour:
   m_Group: {fileID: 102216186}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1510645288}
+        m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
+        m_MethodName: Togglelaninca
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &2116413562
 GameObject:
