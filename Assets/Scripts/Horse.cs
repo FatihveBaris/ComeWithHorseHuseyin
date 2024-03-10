@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Horse : MonoBehaviour
@@ -6,16 +7,26 @@ public class Horse : MonoBehaviour
     public bool isRunning;
     private CursorController cursorController;
     private SpriteRenderer spriteRenderer;
+    private static bool gameStarted;
     
     private void Start()
     {
         cursorController = GameObject.Find("Main Camera").GetComponent<CursorController>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        gameStarted = SpriteLooper.gameStarted;
     }
     
-    void FixedUpdate()
+    private void FixedUpdate()
     { 
         CheckBorders();
+    }
+
+    private void Update()
+    { 
+        if (speed>0f)
+        {
+            HorseMovement();
+        }
     }
 
     private void CheckBorders()
@@ -59,7 +70,7 @@ public class Horse : MonoBehaviour
         // -5f < speed < 5f
         speed = Mathf.Max(speed, -5f);
         speed = Mathf.Min(speed, 5f);
-        transform.Translate(Vector3.right * (speed * Time.deltaTime));
+        HorseMovement();
 
         if (speed > 2.50f && !isRunning)
         {
@@ -69,5 +80,11 @@ public class Horse : MonoBehaviour
         {
             StopRunning();
         }
+    }
+
+    private void HorseMovement()
+    {
+        transform.Translate(Vector3.right * (speed * Time.deltaTime));
+        Debug.Log($"Horse is moving! Horse: {gameObject.name} , location: {transform.position}");
     }
 }
