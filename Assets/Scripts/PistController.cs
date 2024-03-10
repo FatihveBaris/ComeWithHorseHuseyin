@@ -35,7 +35,7 @@ public class PistController : MonoBehaviour
         }
 
 
-        if (Timer >= 15f)
+        if (Timer >= 17f)
         {
             pistFinal.SetActive(true);
             // Eğer {turSayisi} tur tamamlandıysa, son pisti ortaya çıkar. 
