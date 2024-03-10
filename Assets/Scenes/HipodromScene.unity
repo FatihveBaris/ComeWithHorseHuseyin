@@ -1330,12 +1330,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1155049239}
   m_Layer: 0
-  m_Name: Background (1)
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1155049239
 Transform:
   m_ObjectHideFlags: 0
@@ -1443,6 +1443,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 113542255}
     m_Modifications:
+    - target: {fileID: 4110079870856695158, guid: 5b45f51276af9234f8ecfe5199a26789, type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5809883678539226118, guid: 5b45f51276af9234f8ecfe5199a26789, type: 3}
       propertyPath: m_Name
       value: Black Horse
@@ -1934,6 +1938,7 @@ GameObject:
   - component: {fileID: 1923104448}
   - component: {fileID: 1923104447}
   - component: {fileID: 1923104450}
+  - component: {fileID: 1923104451}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2029,6 +2034,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cursor: {fileID: 2800000, guid: 1b59c4e41162b5b4db0641f9915ce8fd, type: 3}
   activeCursor: {fileID: 2800000, guid: f20b15c212653b44eb49e9184b5ab498, type: 3}
+--- !u!114 &1923104451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923104446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78823cc2900cd7e4fb90b42a0416baa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1940547359
 GameObject:
   m_ObjectHideFlags: 0
@@ -2254,6 +2271,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4421493820915184500, guid: e94a70435a6883b43b8a9834cf0d6fe4, type: 3}
+      propertyPath: speed
+      value: 2.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6667755532259873647, guid: e94a70435a6883b43b8a9834cf0d6fe4, type: 3}
       propertyPath: m_Name
       value: Golden Horse
@@ -2314,6 +2335,10 @@ PrefabInstance:
     - target: {fileID: 6103078298939131297, guid: 3a3dc40e6b8c6dd4abca82bdad3eb3c6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6171974071309674323, guid: 3a3dc40e6b8c6dd4abca82bdad3eb3c6, type: 3}
+      propertyPath: speed
+      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2424,6 +2449,10 @@ PrefabInstance:
     - target: {fileID: 5693780902360369983, guid: a901db07274b4034c913bf65c856bc40, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6290519938737053269, guid: a901db07274b4034c913bf65c856bc40, type: 3}
+      propertyPath: speed
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 7061288281085657951, guid: a901db07274b4034c913bf65c856bc40, type: 3}
       propertyPath: m_Name

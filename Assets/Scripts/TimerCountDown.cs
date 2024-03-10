@@ -50,7 +50,7 @@ public class Countdown : MonoBehaviour
         foreach (var horse in _horses)
         {
             horse.StartRunning();
-            horse.ChangeSpeed(2.51f);
+            horse.ChangeSpeed(0.1f);
         }
         kickoff = true; 
     }

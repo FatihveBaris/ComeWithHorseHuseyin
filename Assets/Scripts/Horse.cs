@@ -3,17 +3,18 @@ using UnityEngine;
 
 public class Horse : MonoBehaviour
 {
+    public string horseName;
     public float speed;
     public bool isRunning;
     private CursorController cursorController;
     private SpriteRenderer spriteRenderer;
-    private static bool gameStarted;
+    private CurseController curseController;
     
     private void Start()
     {
         cursorController = GameObject.Find("Main Camera").GetComponent<CursorController>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        gameStarted = SpriteLooper.gameStarted;
+        curseController = GameObject.Find("Main Camera").GetComponent<CurseController>();
+        spriteRenderer = GetComponent<SpriteRenderer>(); 
     }
     
     private void FixedUpdate()
@@ -23,7 +24,7 @@ public class Horse : MonoBehaviour
 
     private void Update()
     { 
-        if (speed>0f)
+        if (SpriteLooper.gameStarted)
         {
             HorseMovement();
         }
@@ -44,11 +45,14 @@ public class Horse : MonoBehaviour
     private void OnMouseEnter()
     {
         cursorController.SetActiveCursor(); 
+        curseController.StartCounter();
     }
 
     private void OnMouseExit()
     {
         cursorController.SetNormalCursor(); 
+        float timePassed = curseController.EndCounter();
+        curseController.SetTheCurse(timePassed, this.gameObject);
     }
     
     public void StartRunning()
@@ -66,7 +70,7 @@ public class Horse : MonoBehaviour
         // koşma hızını değiştirir.
         // At normalde hareketli değil! ChangeSpeed ile hareketi başlatılacak.
         // Bu komutu Update() e falan yazmayın.
-        speed = newSpeed;  
+        speed += newSpeed;  
         // -5f < speed < 5f
         speed = Mathf.Max(speed, -5f);
         speed = Mathf.Min(speed, 5f);
