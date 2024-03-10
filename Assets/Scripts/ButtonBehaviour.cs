@@ -11,10 +11,10 @@ public class ButtonBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (GameObject.Find("SoundManager") != null)
+        if (GameObject.Find("GameManager") != null)
         {
             // GameObject exists 
-            _soundManager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
+            _soundManager = GameObject.Find("GameManager").GetComponent<SoundManager>();
         }
     } 
     
