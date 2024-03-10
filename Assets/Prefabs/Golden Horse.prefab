@@ -166,5 +166,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horseName: "G\xFClbatur"
-  speed: 0
+  speed: 0.4
   isRunning: 0
+  lerpSpeed: 0.5

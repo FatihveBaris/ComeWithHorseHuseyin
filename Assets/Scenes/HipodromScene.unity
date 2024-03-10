@@ -1151,66 +1151,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Timer
       objectReference: {fileID: 0}
-    - target: {fileID: 3545780847060545849, guid: d6624adc1d68d6844837c58197392452, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3545780847060545849, guid: d6624adc1d68d6844837c58197392452, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3545780847060545849, guid: d6624adc1d68d6844837c58197392452, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3545780847060545849, guid: d6624adc1d68d6844837c58197392452, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3545780847060545849, guid: d6624adc1d68d6844837c58197392452, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3545780847060545849, guid: d6624adc1d68d6844837c58197392452, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3545780847060545849, guid: d6624adc1d68d6844837c58197392452, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -10.8406
-      objectReference: {fileID: 0}
-    - target: {fileID: 3545780847060545849, guid: d6624adc1d68d6844837c58197392452, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: -231.9887
-      objectReference: {fileID: 0}
-    - target: {fileID: 3545780847060545849, guid: d6624adc1d68d6844837c58197392452, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -5.420288
-      objectReference: {fileID: 0}
-    - target: {fileID: 3545780847060545849, guid: d6624adc1d68d6844837c58197392452, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 115.99426
-      objectReference: {fileID: 0}
-    - target: {fileID: 7159430196761998911, guid: d6624adc1d68d6844837c58197392452, type: 3}
-      propertyPath: m_text
-      value: Timer
-      objectReference: {fileID: 0}
-    - target: {fileID: 7159430196761998911, guid: d6624adc1d68d6844837c58197392452, type: 3}
-      propertyPath: m_fontSize
-      value: 26
-      objectReference: {fileID: 0}
-    - target: {fileID: 7159430196761998911, guid: d6624adc1d68d6844837c58197392452, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 26
-      objectReference: {fileID: 0}
-    - target: {fileID: 7159430196761998911, guid: d6624adc1d68d6844837c58197392452, type: 3}
-      propertyPath: m_VerticalAlignment
-      value: 512
-      objectReference: {fileID: 0}
-    - target: {fileID: 7159430196761998911, guid: d6624adc1d68d6844837c58197392452, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8796206172250739413, guid: d6624adc1d68d6844837c58197392452, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1503,10 +1443,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 113542255}
     m_Modifications:
-    - target: {fileID: 4110079870856695158, guid: 5b45f51276af9234f8ecfe5199a26789, type: 3}
-      propertyPath: speed
-      value: 0.2
-      objectReference: {fileID: 0}
     - target: {fileID: 5809883678539226118, guid: 5b45f51276af9234f8ecfe5199a26789, type: 3}
       propertyPath: m_Name
       value: Black Horse
@@ -1561,6 +1497,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6265235045949237326, guid: 5b45f51276af9234f8ecfe5199a26789, type: 3}
   m_PrefabInstance: {fileID: 1535645289}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1535645291 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4110079870856695158, guid: 5b45f51276af9234f8ecfe5199a26789, type: 3}
+  m_PrefabInstance: {fileID: 1535645289}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e26de2ba16922745a4b5a3eafebfbcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1562756503
 GameObject:
   m_ObjectHideFlags: 0
@@ -1999,6 +1946,7 @@ GameObject:
   - component: {fileID: 1923104447}
   - component: {fileID: 1923104450}
   - component: {fileID: 1923104451}
+  - component: {fileID: 1923104452}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2106,6 +2054,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78823cc2900cd7e4fb90b42a0416baa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1923104452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923104446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91a9b4142d6738040ae5b5cc3e28e4e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horses:
+  - {fileID: 1535645291}
+  - {fileID: 4450226088854716903}
+  - {fileID: 1612108228415584869}
+  - {fileID: 8230319936293331789}
 --- !u!1 &1940547359
 GameObject:
   m_ObjectHideFlags: 0
@@ -2331,10 +2296,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4421493820915184500, guid: e94a70435a6883b43b8a9834cf0d6fe4, type: 3}
-      propertyPath: speed
-      value: 0.4
-      objectReference: {fileID: 0}
     - target: {fileID: 6667755532259873647, guid: e94a70435a6883b43b8a9834cf0d6fe4, type: 3}
       propertyPath: m_Name
       value: Golden Horse
@@ -2344,6 +2305,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e94a70435a6883b43b8a9834cf0d6fe4, type: 3}
+--- !u!114 &1612108228415584869 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4421493820915184500, guid: e94a70435a6883b43b8a9834cf0d6fe4, type: 3}
+  m_PrefabInstance: {fileID: 1612108228415584868}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e26de2ba16922745a4b5a3eafebfbcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4450226088854716902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2396,15 +2368,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6171974071309674323, guid: 3a3dc40e6b8c6dd4abca82bdad3eb3c6, type: 3}
-      propertyPath: speed
-      value: 0.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a3dc40e6b8c6dd4abca82bdad3eb3c6, type: 3}
+--- !u!114 &4450226088854716903 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6171974071309674323, guid: 3a3dc40e6b8c6dd4abca82bdad3eb3c6, type: 3}
+  m_PrefabInstance: {fileID: 4450226088854716902}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e26de2ba16922745a4b5a3eafebfbcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8175348506533973341
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2510,10 +2489,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6290519938737053269, guid: a901db07274b4034c913bf65c856bc40, type: 3}
-      propertyPath: speed
-      value: 0.3
-      objectReference: {fileID: 0}
     - target: {fileID: 7061288281085657951, guid: a901db07274b4034c913bf65c856bc40, type: 3}
       propertyPath: m_Name
       value: White Horse
@@ -2523,6 +2498,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a901db07274b4034c913bf65c856bc40, type: 3}
+--- !u!114 &8230319936293331789 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6290519938737053269, guid: a901db07274b4034c913bf65c856bc40, type: 3}
+  m_PrefabInstance: {fileID: 8230319936293331788}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e26de2ba16922745a4b5a3eafebfbcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8472583508441280253
 PrefabInstance:
   m_ObjectHideFlags: 0
