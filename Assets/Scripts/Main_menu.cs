@@ -12,7 +12,7 @@ public class Main_menu : MonoBehaviour
     public void StartButton()
     {   //Daha belli deðil diye default deðer olarak 1 atadým.
 
-        SceneManager.LoadScene("HipodromScene");
+        SceneManager.LoadScene(1);
     }
 
     public void SettingsButton()
