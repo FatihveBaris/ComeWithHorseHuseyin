@@ -1708,11 +1708,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0155b4d75e7b6f84795f9aeb439ab01a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1064bd41427324345beda3e5011d5939, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.011
+  m_Volume: 0.087
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1806,7 +1806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47de5e62e1ff62844b31fa73611ca9f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene3Sound: {fileID: 8300000, guid: 0155b4d75e7b6f84795f9aeb439ab01a, type: 3}
+  scene3Sound: {fileID: 8300000, guid: 1064bd41427324345beda3e5011d5939, type: 3}
 --- !u!4 &1660824225
 Transform:
   m_ObjectHideFlags: 0
