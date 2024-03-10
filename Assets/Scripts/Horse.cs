@@ -65,7 +65,7 @@ public class Horse : MonoBehaviour
     
     public void StartRunning()
     {
-        isRunning = true;  
+        isRunning = true;
     }
     
     public void StopRunning()
