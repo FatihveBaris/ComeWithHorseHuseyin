@@ -12,12 +12,14 @@ public class GameManager : MonoBehaviour
     public static bool signal = false;
     private ToggleController _toggleController;
     private List<String> reqList;
-    private void Start()
-    {
-        
-    }
-
-    private void Update()
+    private void Awake()
+    { 
+            // Ensure the GameObject is not destroyed when loading a new scene
+            DontDestroyOnLoad(gameObject); 
+            // Subscribe to the sceneLoaded event
+            SceneManager.sceneLoaded += OnSceneLoaded; 
+    } 
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("GamblingMenu") && signal)
         {
@@ -32,7 +34,7 @@ public class GameManager : MonoBehaviour
                     HuseyininSectigiAt = Convert.ToInt32(reqList[i].Substring(0, 1));
                     break;
                 }
-            }
+            } 
         }
     }
 } 
