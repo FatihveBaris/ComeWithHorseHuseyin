@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class PistController : MonoBehaviour
@@ -11,6 +12,7 @@ public class PistController : MonoBehaviour
     private GameObject pist1;
     private GameObject pist2;
     private GameObject pistFinal; 
+    private float Timer;
     private void Awake()
     {
         turAtisi = turSayisi;
@@ -23,13 +25,17 @@ public class PistController : MonoBehaviour
 
     void Update()
     {
+        Timer += Time.deltaTime;
+        
+        
         if (turAtildiMi)
         {
             turAtisi--;
             turAtildiMi = false;
         }
 
-        if (turAtisi == 0)
+
+        if (Timer >= 15f)
         {
             pistFinal.SetActive(true);
             // Eğer {turSayisi} tur tamamlandıysa, son pisti ortaya çıkar. 
