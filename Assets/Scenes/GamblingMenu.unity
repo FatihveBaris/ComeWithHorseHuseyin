@@ -493,7 +493,7 @@ GameObject:
   - component: {fileID: 33316222}
   - component: {fileID: 33316223}
   m_Layer: 5
-  m_Name: 3_1
+  m_Name: 20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -570,10 +570,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1510645288}
         m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
         m_MethodName: Togglelaninca
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 33316223}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1116,6 +1116,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   presscount: 0
+  Img1: {fileID: 0}
+  Img2: {fileID: 0}
 --- !u!114 &207247876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1221,7 +1223,7 @@ GameObject:
   - component: {fileID: 220147250}
   - component: {fileID: 220147251}
   m_Layer: 5
-  m_Name: 2_3
+  m_Name: 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1298,10 +1300,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1510645288}
         m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
         m_MethodName: Togglelaninca
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 220147251}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1758,7 +1760,7 @@ GameObject:
   - component: {fileID: 292609653}
   - component: {fileID: 292609654}
   m_Layer: 5
-  m_Name: 2_1
+  m_Name: 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1835,10 +1837,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1510645288}
         m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
         m_MethodName: Togglelaninca
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 292609654}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1932,7 +1934,7 @@ GameObject:
   - component: {fileID: 370611515}
   - component: {fileID: 370611516}
   m_Layer: 5
-  m_Name: 3_3
+  m_Name: 22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2009,10 +2011,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1510645288}
         m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
         m_MethodName: Togglelaninca
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 370611516}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2309,7 +2311,7 @@ GameObject:
   - component: {fileID: 492443273}
   - component: {fileID: 492443274}
   m_Layer: 5
-  m_Name: 2_2
+  m_Name: 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2386,10 +2388,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1510645288}
         m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
         m_MethodName: Togglelaninca
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 492443274}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2865,7 +2867,7 @@ GameObject:
   - component: {fileID: 648362797}
   - component: {fileID: 648362798}
   m_Layer: 5
-  m_Name: 4_3
+  m_Name: 32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2942,10 +2944,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1510645288}
         m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
         m_MethodName: Togglelaninca
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 648362798}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4597,7 +4599,7 @@ GameObject:
   - component: {fileID: 944843676}
   - component: {fileID: 944843677}
   m_Layer: 5
-  m_Name: 4_1
+  m_Name: 30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4674,10 +4676,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1510645288}
         m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
         m_MethodName: Togglelaninca
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 944843677}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5129,7 +5131,7 @@ GameObject:
   - component: {fileID: 1047156519}
   - component: {fileID: 1047156520}
   m_Layer: 5
-  m_Name: 1_1
+  m_Name: 00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5206,10 +5208,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1510645288}
         m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
         m_MethodName: Togglelaninca
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1047156520}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6140,7 +6142,7 @@ GameObject:
   - component: {fileID: 1344173872}
   - component: {fileID: 1344173873}
   m_Layer: 5
-  m_Name: 2_4
+  m_Name: 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6217,10 +6219,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1510645288}
         m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
         m_MethodName: Togglelaninca
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1344173873}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6428,7 +6430,7 @@ GameObject:
   - component: {fileID: 1385189427}
   - component: {fileID: 1385189428}
   m_Layer: 5
-  m_Name: 1_4
+  m_Name: 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6505,10 +6507,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1510645288}
         m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
         m_MethodName: Togglelaninca
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1385189428}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6538,7 +6540,7 @@ GameObject:
   - component: {fileID: 1388678100}
   - component: {fileID: 1388678101}
   m_Layer: 5
-  m_Name: 4_2
+  m_Name: 31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6615,10 +6617,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1510645288}
         m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
         m_MethodName: Togglelaninca
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1388678101}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6945,7 +6947,7 @@ GameObject:
   - component: {fileID: 1430048233}
   - component: {fileID: 1430048234}
   m_Layer: 5
-  m_Name: 4_4
+  m_Name: 33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7022,10 +7024,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1510645288}
         m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
         m_MethodName: Togglelaninca
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1430048234}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9133,7 +9135,7 @@ GameObject:
   - component: {fileID: 1891469693}
   - component: {fileID: 1891469694}
   m_Layer: 5
-  m_Name: 1_2
+  m_Name: 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9210,10 +9212,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1510645288}
         m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
         m_MethodName: Togglelaninca
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1891469694}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9442,7 +9444,7 @@ GameObject:
   - component: {fileID: 1922917259}
   - component: {fileID: 1922917260}
   m_Layer: 5
-  m_Name: 3_2
+  m_Name: 21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9519,10 +9521,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1510645288}
         m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
         m_MethodName: Togglelaninca
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1922917260}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9849,7 +9851,7 @@ GameObject:
   - component: {fileID: 2022355990}
   - component: {fileID: 2022355991}
   m_Layer: 5
-  m_Name: 1_3
+  m_Name: 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9926,10 +9928,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1510645288}
         m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
         m_MethodName: Togglelaninca
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2022355991}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -10497,7 +10499,7 @@ GameObject:
   - component: {fileID: 2111033513}
   - component: {fileID: 2111033514}
   m_Layer: 5
-  m_Name: 3_4
+  m_Name: 23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10574,10 +10576,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1510645288}
         m_TargetAssemblyTypeName: ToggleController, Assembly-CSharp
         m_MethodName: Togglelaninca
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2111033514}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
