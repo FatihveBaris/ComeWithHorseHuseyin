@@ -145,8 +145,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horseName: "\u015Eahbatur"
-  speed: 0
+  speed: 0.2
   isRunning: 0
+  lerpSpeed: 0.5
 --- !u!95 &8712863504737908533
 Animator:
   serializedVersion: 5

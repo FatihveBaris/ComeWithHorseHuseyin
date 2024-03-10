@@ -20,26 +20,16 @@ public class CurseController : MonoBehaviour
 
     public void SetTheCurse(float curseTime, GameObject callingHorse)
     {
-        Debug.Log($"Lanetlenen at: {callingHorse.name} - Lanet süresi: {curseTime}");
-        if (curseTime < 1f)
-        {
-            callingHorse.GetComponent<Horse>().ChangeSpeed(-0.75f);
-        }
-        else if (curseTime < 2f)
-        {
-            callingHorse.GetComponent<Horse>().ChangeSpeed(-1f);
-        }
-        else if (curseTime < 3f)
-        {
-            callingHorse.GetComponent<Horse>().ChangeSpeed(-1.5f);
-        }
-        else if (curseTime < 4f)
-        {
-            callingHorse.GetComponent<Horse>().ChangeSpeed(-2f);
-        }
-        else 
-        {
-            callingHorse.GetComponent<Horse>().ChangeSpeed(-2.5f);
-        } 
+        //Debug.Log($"Lanetlenen at: {callingHorse.name} - Lanet süresi: {curseTime}");
+
+        // Define the speed range based on curse time
+        float minSpeed = -0.75f;
+        float maxSpeed = -2.5f;
+
+        // Interpolate the curse speed based on curse time
+        float curseSpeed = Mathf.Lerp(minSpeed, maxSpeed, curseTime / 4f);
+
+        // Apply the curse speed to the horse
+        callingHorse.GetComponent<Horse>().ChangeSpeed(curseSpeed);
     }
 }

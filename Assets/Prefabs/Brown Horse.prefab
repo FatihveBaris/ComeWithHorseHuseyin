@@ -145,8 +145,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horseName: Dervish
-  speed: 0
+  speed: 0.5
   isRunning: 0
+  lerpSpeed: 0.5
 --- !u!95 &7192262966534745154
 Animator:
   serializedVersion: 5
